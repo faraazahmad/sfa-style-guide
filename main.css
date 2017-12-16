@@ -1,0 +1,38 @@
+button {
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: all 0.25s ease-out;
+    padding: 1em 2em;
+}
+button:active {
+    outline: none;
+    text-decoration: none;
+    transform: scale(0.95);    
+}
+
+.btn-default {
+    background-color: #eee;
+    color: #000;
+}
+.btn-default:hover {
+    background: #e1e1e1;
+}
+.btn-default:active {
+    background: #cdcdcd;
+}
+
+.btn-primary {
+    color: #fff;
+    background: rgb(226, 17, 17);
+}
+.btn-primary:hover {
+    background: rgb(201, 18, 18);
+}
+.btn-primary:active {
+    background: rgb(167, 6, 6);    
+}
+
+html, body {
+    margin: 0;
+}
